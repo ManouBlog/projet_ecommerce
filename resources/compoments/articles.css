@@ -1,0 +1,51 @@
+.content-articles{
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   width: 100%;
+   gap: 4em;
+   padding: 0 1em;
+}
+
+.items_conteneur{
+    border: 1px solid rgb(5, 5, 5);
+    margin-bottom: 1em;
+}
+.content_images{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    border-bottom: 3px solid black;
+}
+.content_images img{
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+.name_phone{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.name_prix{
+    font-weight: 400;
+    color: rgb(214, 141, 4);
+    font-size: 1.2em;
+    
+}
+.name_phone,.name_prix{
+    text-align: center;
+   
+}
+.btn_add{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background: #000;
+    outline: none;
+    border: none;
+    font-size:1.5em;
+    font-weight: bold;
+}
+.btn_add:active{
+    background: rgb(145, 0, 29);
+}
